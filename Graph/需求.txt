@@ -18,17 +18,17 @@
 实验说明：     1．类型定义
 邻接表存储见实验07
 邻接矩阵存储示例
-        #define MAX_VERTEX_NUM 20  //顶点最大个数
-        typedef enum {DG, DN, UDG, UDN} GraphKind;
+?        #define MAX_VERTEX_NUM 20  //顶点最大个数
+?        typedef enum {DG, DN, UDG, UDN} GraphKind;
 typedef struct ArcCell{
-           VRType  adj;
-           int       weight;  //边的权值
-        }ArcCell; AdjMatrix[MAX_VERTEX_NUM] [MAX_VERTEX_NUM];           typedef struct{
+?           VRType  adj;
+?           int       weight;  //边的权值
+?        }ArcCell; AdjMatrix[MAX_VERTEX_NUM] [MAX_VERTEX_NUM];           typedef struct{
   VertexType vexs[MAX_VERTEX_NUM];
   AdjMatrix  arcs;
-          int        vexnum, arcnum; //顶点的实际数，边的实际数
-          GraphKind kind;
-       }MGraph;    
+?          int        vexnum, arcnum; //顶点的实际数，边的实际数
+?          GraphKind kind;
+?       }MGraph;    
 
 注意问题：
-    注意理解各算法实现时所采用的存储结构。
+?    注意理解各算法实现时所采用的存储结构。
